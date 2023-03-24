@@ -1,1 +1,0 @@
-self.__BUILD_MANIFEST = (function(a){return {"/404":[a],"/adega":[a],"/adega/catalogo":["static\u002Fchunks\u002F29107295.4a21cd64f848da286b24.js"],"/base":[a],"/base/preview-mode":[a]}}("static\u002Fchunks\u002Fb3802ce5312d7ab1dff6f1fbd334c0c843c8db17.48e2d71248dff10a9333.js"));self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
