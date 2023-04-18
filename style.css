@@ -1,0 +1,33 @@
+.item1 { grid-area: cabeçalho; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'cabeçalho cabeçalho cabeçalho cabeçalho cabeçalho cabeçalho'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 15px;
+  background-color:rgb(30, 205, 56);
+  padding: 6px;
+}
+
+.grid-menu {
+    display: grid;
+    grid-template-areas:
+    'menu2 menu2 menu2 menu2 menu2';
+    gap: 20px;
+    background color: #ff5;
+    padding: 5px;
+}
+
+th,p,tr {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.preco {
+    font-weight: bolder;
+}
